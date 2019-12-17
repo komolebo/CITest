@@ -4,10 +4,15 @@ project(HomeworkProject VERSION 1.0.0)
 
 set(sources
     "src/impl.cpp"
+    "src/BigShip.cpp"
+    "src/Ship.cpp"
 )
 
 set(headers
-    "src/impl.h")
+    "src/impl.h"
+    "src/BigShip.h"
+    "src/IShip.h"
+    "src/Ship.h")
 
 set(BUILDDIR ${CMAKE_CURRENT_SOURCE_DIR}/build)
 set(TEST true)
